@@ -12,3 +12,7 @@ result = foo(t3)
 foo(bar(ipsum(argument("arg"))))
 
 # Operador "Pipe"
+argument("arg")
+    |> ipsum
+    |> bar
+    |> foo
